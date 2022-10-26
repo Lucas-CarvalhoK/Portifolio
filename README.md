@@ -1,6 +1,6 @@
-# Viwer (nft)
+# Preview (nft)
 
-Estudo
+Estudo de HTML/CSS utilizando o Vue3 e Quasar framework.
 
 ## Install the dependencies
 ```bash
