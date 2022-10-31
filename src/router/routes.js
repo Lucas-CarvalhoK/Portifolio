@@ -18,6 +18,12 @@ const routes = [
             path: "/ydStudio",
             name: "ydstudio",
             component: () => import("../pages/ydStudio")
+          },
+          { path: "", component: () => import("../pages/IndexPage") },
+          {
+            path: "/socialDashboard",
+            name: "socialDashboard",
+            component: () => import("../pages/SocialDashboard")
           }
         ]
       }

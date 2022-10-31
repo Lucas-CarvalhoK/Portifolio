@@ -19,8 +19,8 @@
       side="left"
     >
       <!-- drawer content -->
-      <div class="text-h6 text-center">MENU</div>
-      <div class="q-pt-m column">
+      <div class="White text-h6 text-center" style="color: white">MENU</div>
+      <div class="q-pt-m column" style="color: white">
         <q-expansion-item
           dense
           class="text-center teste"
@@ -31,7 +31,7 @@
             <q-btn
               flat
               dense
-              style="color: black"
+              style="color: white"
               label="Equilibrium"
               icon="fas fa-cube"
               @click="goEquilibrium()"
@@ -39,10 +39,18 @@
             <q-btn
               flat
               dense
-              style="color: black"
+              style="color: white"
               label="ydStudio"
-              icon="fas fa-cube"
+              icon="apartment"
               @click="goysStudio()"
+            />
+            <q-btn
+              flat
+              dense
+              style="color: white"
+              label="Social Dashboard"
+              icon="public"
+              @click="gosocialDashboard()"
             />
           </div>
         </q-expansion-item>
@@ -57,7 +65,6 @@
           flat
           dense
           class="text-left"
-          color="primary"
           icon="home"
           label="Home"
           :to="'/'"
@@ -88,11 +95,15 @@ export default {
     function goysStudio() {
       router.push({ name: "ydstudio" });
     }
+    function gosocialDashboard() {
+      router.push({ name: "socialDashboard" });
+    }
     return {
       leftDrawerOpen,
       toggleLeftDrawer,
       goEquilibrium,
       goysStudio,
+      gosocialDashboard,
     };
   },
 };
