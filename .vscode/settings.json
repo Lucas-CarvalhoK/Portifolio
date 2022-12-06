@@ -54,9 +54,5 @@
   "vetur.validation.interpolation": false,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "workbench.preferredDarkColorTheme": "Quiet Light",
-  "workbench.preferredHighContrastColorTheme": "Kimbie Dark",
-  "workbench.preferredHighContrastLightColorTheme": "Monokai Dimmed",
-  "workbench.preferredLightColorTheme": "Default Light+"
+  }
 }
