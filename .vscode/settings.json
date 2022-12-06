@@ -1,15 +1,62 @@
 {
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": true,
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.codeActionsOnSave": [
-    "source.fixAll.eslint"
-  ],
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "vue"
-  ]
+  "editor.fontSize": 15,
+  // "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+   "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+   "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.experimental.templateInterpolationService": false,
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "workbench.iconTheme": "material-icon-theme",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.minimap.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "workbench.colorTheme": "Dracula",
+  "git.autofetch": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "git.confirmSync": false,
+  "explorer.confirmDelete": false,
+  "git.enableSmartCommit": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  "explorer.compactFolders": false,
+  "editor.suggestSelection": "first",
+  "[css]": {
+    "editor.defaultFormatter": "svipas.prettier-plus"
+  },
+  "workbench.colorCustomizations": {
+    "[Material Theme]": {}
+  },
+  "tabnine.experimentalAutoImports": true,
+  "git.ignoreRebaseWarning": true,
+  "workbench.sideBar.location": "left",
+  "bracketPairColorizer.depreciation-notice": false,
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.external.windowsExec": "C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "vetur.validation.interpolation": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.preferredDarkColorTheme": "Quiet Light",
+  "workbench.preferredHighContrastColorTheme": "Kimbie Dark",
+  "workbench.preferredHighContrastLightColorTheme": "Monokai Dimmed",
+  "workbench.preferredLightColorTheme": "Default Light+"
 }
