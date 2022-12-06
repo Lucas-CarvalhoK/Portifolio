@@ -1,18 +1,22 @@
 <template>
   <q-page
     class="row flex flex-center"
-    style="background-color: hsl(228, 28%, 20%)"
+    style="background-color: hsl(230, 17%, 14%)"
   >
     <div class="row justify-center q-pa-md row items-start q-gutter-md">
       <q-card class="my-card" size="">
         <q-separator />
-        <q-card-section class="bg-primary text-white column">
+        <q-card-section
+          class="text-white column"
+          style="background-color: hsl(228, 28%, 20%)"
+        >
           <div class="row justify-center">
             <q-icon name="fa-brands fa-facebook" size="sm" />
-            <div class="text-h7 q-pl-sm">@nathanf</div>
+            <div class="text-h7 q-pl-xs">@nathanf</div>
           </div>
           <div class="text-h2">1987</div>
           <div class="text-h7">Followers</div>
+          <div calss="text-subtitle">1111</div>
         </q-card-section>
       </q-card>
 

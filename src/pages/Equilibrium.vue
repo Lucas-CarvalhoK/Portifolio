@@ -51,8 +51,8 @@
               />
             </q-avatar>
           </q-item-section>
-          <span class="text-blue-grey text-weight-medium">Creation of </span
-          ><span class="cursor-pointer xablau">Jules Wyvern</span>
+          <span class="text-blue-grey text-weight-medium">Creation of</span
+          ><span class="cursor-pointer xablau q-pl-xs">Jules Wyvern</span>
         </q-item>
       </q-card-section>
     </q-card>
