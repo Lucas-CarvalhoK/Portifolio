@@ -149,7 +149,7 @@ module.exports = configure(function (ctx) {
         description: `Estudo`,
         display: "standalone",
         orientation: "portrait",
-        background_color: "#ffffff",
+        background_color: "#414458",
         theme_color: "#027be3",
         icons: [
           {

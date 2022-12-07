@@ -48,9 +48,17 @@
               flat
               dense
               style="color: white"
-              label="Social Dashboard"
+              label="Social Dashboard (WIP...)"
               icon="public"
               @click="gosocialDashboard()"
+            />
+            <q-btn
+              flat
+              dense
+              style="color: white"
+              label="ISS Tracker"
+              icon="satellite_alt"
+              @click="goIssTracker()"
             />
           </div>
         </q-expansion-item>
@@ -98,12 +106,16 @@ export default {
     function gosocialDashboard() {
       router.push({ name: "socialDashboard" });
     }
+    function goIssTracker() {
+      router.push({ name: "IssTracker" });
+    }
     return {
       leftDrawerOpen,
       toggleLeftDrawer,
       goEquilibrium,
       goysStudio,
       gosocialDashboard,
+      goIssTracker,
     };
   },
 };

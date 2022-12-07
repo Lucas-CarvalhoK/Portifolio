@@ -24,6 +24,12 @@ const routes = [
             path: "/socialDashboard",
             name: "socialDashboard",
             component: () => import("../pages/SocialDashboard")
+          },
+          { path: "", component: () => import("../pages/IndexPage") },
+          {
+            path: "/IssTracker",
+            name: "IssTracker",
+            component: () => import("../pages/IssTracker")
           }
         ]
       }
